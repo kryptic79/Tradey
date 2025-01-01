@@ -77,7 +77,7 @@ def Main():
         elif choice == "2":
             print("Fetching account balances...")
             # Call the function to get account balances here
-            Getbalances
+            Getbalances()
         elif choice == "3":
             print("Exiting the program. Goodbye!")
             active = False  # Break the loop
